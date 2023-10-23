@@ -1,3 +1,8 @@
-.home-image {
-  width: 300px;
+.background-container {
+  background-image: url("./img/churros.jpg"); /* Replace 'your-image.jpg' with the URL or path to your image */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
 }

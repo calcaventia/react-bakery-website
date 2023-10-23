@@ -1,14 +1,14 @@
 import React from "react";
 import "../App.css";
 import Navigation from "./Navigation";
-import img1 from "../img/cupcakes.jpg";
+import "../img/croissants.jpg";
 
 function HomePage() {
   return (
-    <div>
+    <div class="background-container">
       <Navigation />
-      <h1>Welcome to Our Bakery</h1>
-      <img src={img1} alt="Bakery" class="home-image" />
+      <h1 class="main-heading">Welcome to Vaal Bakes</h1>
+      <p>Vaal's No.1 bakery</p>
     </div>
   );
 }
