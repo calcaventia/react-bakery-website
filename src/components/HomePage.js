@@ -1,5 +1,6 @@
 import React from "react";
 import "../App.css";
+import "./HomePage.css";
 import Navigation from "./Navigation";
 import "../img/croissants.jpg";
 
@@ -7,8 +8,12 @@ function HomePage() {
   return (
     <div class="background-container">
       <Navigation />
-      <h1 class="main-heading">Welcome to Vaal Bakes</h1>
-      <p>Vaal's No.1 bakery</p>
+
+      <div className="content-container">
+        <h1 className="main-heading">Welcome to Vaal Bakes</h1>
+        <p className="description">Vaal's No.1 Bakery Store</p>
+        <button className="menu-btn">Explore The Menu</button>
+      </div>
     </div>
   );
 }

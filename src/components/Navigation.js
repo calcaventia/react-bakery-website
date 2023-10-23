@@ -4,16 +4,19 @@ import { Link } from "react-router-dom";
 
 function Navigation() {
   return (
-    <nav>
+    <nav className="navbar">
       <ul>
-        <li>
+        <li id="navbar-home">
           <Link to="/">Home</Link>
         </li>
-        <li>
+        <li id="navbar-about">
           <Link to="/about">About Us</Link>
         </li>
-        <li>
+        <li id="navbar-menu">
           <Link to="/menu">Menu</Link>
+        </li>
+        <li id="navbar-contact">
+          <Link to="/contact">Contact Us</Link>
         </li>
       </ul>
     </nav>
