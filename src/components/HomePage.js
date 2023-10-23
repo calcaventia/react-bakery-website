@@ -1,5 +1,4 @@
 import React from "react";
-import "../App.css";
 import "./HomePage.css";
 import Navigation from "./Navigation";
 import "../img/croissants.jpg";
