@@ -1,0 +1,32 @@
+.about-us-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.text-column {
+  flex: 1;
+  padding: 20px;
+}
+
+.image-column {
+  flex: 1;
+  text-align: center;
+}
+
+h2 {
+  font-size: 24px;
+  color: #333;
+}
+
+p {
+  font-size: 16px;
+  color: #666;
+  line-height: 1.5;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
