@@ -1,0 +1,16 @@
+body {
+  background-color: rgb(63, 63, 63);
+}
+
+img {
+  max-width: 100%;
+}
+
+.menu-name {
+  background-color: antiquewhite;
+  font-weight: 600;
+}
+
+h1 {
+  padding: 3% 0 2% 0;
+}
