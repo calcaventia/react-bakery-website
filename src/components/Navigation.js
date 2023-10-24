@@ -7,16 +7,24 @@ function Navigation() {
     <nav className="navbar">
       <ul>
         <li id="navbar-home">
-          <Link to="/">Home</Link>
+          <Link to="/" className="navbar-menu">
+            Home
+          </Link>
         </li>
         <li id="navbar-about">
-          <Link to="/about">About Us</Link>
+          <Link to="/about" className="navbar-menu">
+            About Us
+          </Link>
         </li>
         <li id="navbar-menu">
-          <Link to="/menu">Menu</Link>
+          <Link to="/menu" className="navbar-menu">
+            Menu
+          </Link>
         </li>
         <li id="navbar-contact">
-          <Link to="/contact">Contact Us</Link>
+          <Link to="/contact" className="navbar-menu">
+            Contact Us
+          </Link>
         </li>
       </ul>
     </nav>
