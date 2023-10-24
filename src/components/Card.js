@@ -6,7 +6,7 @@ const Card = (props) => {
     <div className="card">
       <img src={props.imageUrl} alt={props.altText} />
       <div className="card-content">
-        <h2>{props.title}</h2>
+        <h2 className="menu-heading">{props.title}</h2>
         <p>{props.description}</p>
       </div>
     </div>

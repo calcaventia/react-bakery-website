@@ -11,7 +11,7 @@ const AboutPage = () => {
       <div className="container">
         <div className="row about-page-container">
           <div className="col-md-6 text-column">
-            <h2>About Us</h2>
+            <h2 className="about-heading">About Us</h2>
             <p>
               Welcome to Vaal Bakes, where we bake with love and tradition. Our
               story began in our small family kitchen, and our love for bringing
